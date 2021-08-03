@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="container">
+    <div class="center">
+        <p class="heading">Hello and welcome to the Sudoku Game</p>
+        <p class="heading">To checkout the rules of the game <a href="explain.html">click here</a></p>
+        <p class="heading">Please enter your user name and password to begin!</p>
+        <div class="paddingHeader">
+            <input type="text" name="userNamme" id="userName" placeholder="type your user name">
+            <p class="hide" id="userWrong">your user name is wrong , try again</p>
+            <br id="firstBR"><br>
+            <input type="password" name="password" id="password" placeholder="type your password">
+            <p class="hide" id="passwordWrong">your password is wrong , try again</p>
+            <br><br id="secondBR">
+            <input type="submit" name="enter" id="enter" value="enter">
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src='script.js'></script>
+</body>
+
+</html>                                                                                            
